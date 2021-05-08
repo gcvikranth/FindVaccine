@@ -1,4 +1,4 @@
-Sample program to use CoWinAPI in Java
+Sample program to use CoWinAPI in Java use it at your own risk
 
 To find slot run
 - main.CoWinVaccineFinder <<Mobile Number>> <<DistrictID>>
