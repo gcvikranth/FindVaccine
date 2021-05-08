@@ -1,13 +1,13 @@
 package model;
 
 public class Txn {
-  private String trxId;
+  private String txnId;
 
   public String getTrxId() {
-    return trxId;
+    return txnId;
   }
 
   public void setTrxId(String trxId) {
-    this.trxId = trxId;
+    this.txnId = trxId;
   }
 }
