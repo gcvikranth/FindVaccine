@@ -18,7 +18,7 @@ public abstract  class BaseClient {
     final OkHttpClient okHttpClient = new OkHttpClient.Builder()
             .connectTimeout(20, TimeUnit.SECONDS)
             .writeTimeout(20, TimeUnit.SECONDS)
-            .readTimeout(20, TimeUnit.SECONDS)
+            .readTimeout(50, TimeUnit.SECONDS)
             .cache(null)
             .build();
 
