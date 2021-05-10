@@ -1,11 +1,30 @@
 *************************************************************************
 **** Sample program to use CoWinAPI in Java. Use it at your own risk ****
 *************************************************************************
-
+Step 1- Find State Id
+ run main.CoWinStateFinder
+  You will get state Id with state name 
+  eg
+    State Id = 1, State Name = Andaman and Nicobar Islands
+    State Id = 2, State Name = Andhra Pradesh
+    State Id = 16, State Name = Karnataka
+Step2 - Find the District Id
+  Pass state id to the program
+  main.CoWinDistrictFinder <<STATE_ID>>
+  eg 
+    main.CoWinDistrictFinder 16
+      District Id = 276, District Name = Bangalore Rural
+      District Id = 265, District Name = Bangalore Urban
+      District Id = 294, District Name = BBMP
+      District Id = 264, District Name = Belgaum
+      District Id = 274, District Name = Bellary
+      District Id = 272, District Name = Bidar
+   
+Step2 
 To find slot run
 - main.CoWinVaccineFinder <<Mobile Number>> <<DistrictID>>
-District ID defaults to BBMP -Bangalore
+District ID defaults to BBMP -Bangalore, mobile should be registered number on CoWin API
 eg
 1.main.CoWinVaccineFinder 9XX0XXXX0  284
 2.main.CoWinVaccineFinder 9XX0XXXX0
-Once a slot is found it will trigger OTP to mobile which can be used to login to Cowin website and book a slot
+Once a slot is found it will trigger OTP to mobile which can be used to quickly login to Cowin website and book a slot
