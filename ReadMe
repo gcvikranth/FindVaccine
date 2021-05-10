@@ -20,7 +20,7 @@ Step2 - Find the District Id
       District Id = 274, District Name = Bellary
       District Id = 272, District Name = Bidar
    
-Step2 
+Step3 
 To find slot run
 - main.CoWinVaccineFinder <<Mobile Number>> <<DistrictID>>
 District ID defaults to BBMP -Bangalore, mobile should be registered number on CoWin API
